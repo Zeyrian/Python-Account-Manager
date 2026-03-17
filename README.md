@@ -4,7 +4,7 @@ A command-line account management system built in Python. Demonstrates core auth
 
 ---
 
-## Features
+## 🖥️ Features
 
 - User creation with role assignment (`admin`, `student`, `lecturer`)
 - Login system with failed attempt tracking
@@ -13,7 +13,7 @@ A command-line account management system built in Python. Demonstrates core auth
 - Admin-only controls to delete and unlock accounts
 - Account summary and role-based reporting
 
-## Technologies
+## ⚙️ Technologies
 
 - Python 3
 - Dictionaries for in-memory data storage
@@ -21,4 +21,4 @@ A command-line account management system built in Python. Demonstrates core auth
 
 ---
 
-> **Note:** This project stores data in-memory — accounts reset when the program ends. For persistent storage and bcrypt password hashing, see [Account Manager v2](#).
+> **Note:** This project stores data in-memory and accounts reset when the program ends. I have made an upgraded version which feature persistent storage and bcrypt for password hashing. [Account Manager v2](#).

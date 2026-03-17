@@ -1,23 +1,24 @@
-# Python Account Manager
+# 🔐 Simple Account Manager
 
-A simple account management system written in Python.  
-This project demonstrates basic authentication logic, role based permissions and account security features.
+A command-line account management system built in Python. Demonstrates core authentication logic, role-based permissions, and account security features using in-memory data structures.
 
-## Features 🖥️
+---
 
-- User creation with roles (admin, student, lecturer)
+## Features
+
+- User creation with role assignment (`admin`, `student`, `lecturer`)
 - Login system with failed attempt tracking
-- Automatic account lock after 3 failed logins
+- Automatic account lockout after 3 failed logins
 - Password strength validation
-- Admin tools to delete and unlock accounts
-- Account summary and role reports
+- Admin-only controls to delete and unlock accounts
+- Account summary and role-based reporting
 
-## Technologies ⚙️
+## Technologies
 
-- Python
-- Dictionaries for data storage
+- Python 3
+- Dictionaries for in-memory data storage
 - Modular function design
 
-## Example Use 💾
+---
 
-This project simulates how a basic authentication system works in backend applications.
+> **Note:** This project stores data in-memory — accounts reset when the program ends. For persistent storage and bcrypt password hashing, see [Account Manager v2](#).
